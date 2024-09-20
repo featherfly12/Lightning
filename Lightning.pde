@@ -59,6 +59,13 @@ void draw()
   else if (reset == 21){
     background(255, 246, 207);
     textSize(100);
+    strokeWeight(10);
+    stroke(122, 86, 35);
+    fill(158, 134, 66);
+    triangle(335,230,320,250,250,400);
+    translate(-20,-5);
+    triangle(335,230,320,250,250,400);
+
     fill(0);
     text("Ramen!", 80,100);
     fill(242, 200, 170);
@@ -68,8 +75,6 @@ void draw()
     stroke(0);
     fill(255, 204, 0);
     ellipse(250,350,270,150);
-    fill(255);
-    arc(250, 350, 300, 200, 0, PI/1);
     stroke(0);
     line(100,350,400,350);
     line(100,350,350,300);
@@ -77,6 +82,17 @@ void draw()
     line(190,350,380,340);
     line(120,330,330,290);
     line(140,305,290,280);
+    strokeWeight(15);
+    stroke(227, 2, 103);
+    fill(255);
+    ellipse(180,330,50,50);
+    ellipse(140,350,50,50);
+    strokeWeight(3);
+    stroke(0);
+    fill(255);
+    arc(250, 350, 300, 200, 0, PI/1);
+
+    
   }
 
 }
