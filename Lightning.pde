@@ -65,13 +65,14 @@ void draw()
     triangle(335,230,320,250,250,400);
     translate(-20,-5);
     triangle(335,230,320,250,250,400);
-
+    translate(20,5);
+    
     fill(0);
     text("Ramen!", 80,100);
     fill(242, 200, 170);
     noStroke();
-    rect(0,400,500,100);
-    strokeWeight(4);
+    rect(0,400,600,200);
+    strokeWeight(5);
     stroke(0);
     fill(255, 204, 0);
     ellipse(250,350,270,150);
@@ -87,7 +88,7 @@ void draw()
     fill(255);
     ellipse(180,330,50,50);
     ellipse(140,350,50,50);
-    strokeWeight(3);
+    strokeWeight(5);
     stroke(0);
     fill(255);
     arc(250, 350, 300, 200, 0, PI/1);
